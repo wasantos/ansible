@@ -1,0 +1,6 @@
+---
+# tasks file for jenkins
+- name: Adicionando o Repositorio Jenkins
+  get_url:
+     url: http://pkg.jenkins-ci.org/redhat/jenkins.repo
+      dest: /etc/yum.repos.d/jenkins.repo

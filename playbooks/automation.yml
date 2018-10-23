@@ -1,0 +1,6 @@
+---
+- name: Executando roles da maquina automation
+  hosts: automation
+  roles:
+#    - rundeck
+     - jenkins
